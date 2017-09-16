@@ -1,7 +1,22 @@
-What happens when you initialize a repository? Why do you need to do it?
+Lesson 2 Reflections
+
+Step 5
+What happens when you initialize a repository?
+Why do you need to do it?
 
 When you initialize a repository a .git directory is created. This is a hidden directory
 that contains the control information necesary for managing the repository. It is also
 used to contain the index (staging area) and all of the commits. The commits are
 snapshots taken of your project and can be used to back out from bugs and to try
 safely develop and try out new features.
+
+
+Step 8
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The repository keeps all of the project commits which are snapshots of the project taken
+at specific logical moments during development. The working directory holds the project
+files that correspond to a specific commit and any changes made since that commit was
+created. The staging area is used to hold a copy of any changes to the working directory
+that you want to include in the next commit.
