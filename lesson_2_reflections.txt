@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository a .git directory is created. This is a hidden directory
+that contains the control information necesary for managing the repository. It is also
+used to contain the index (staging area) and all of the commits. The commits are
+snapshots taken of your project and can be used to back out from bugs and to try
+safely develop and try out new features.
