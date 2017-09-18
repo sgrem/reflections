@@ -20,3 +20,6 @@ at specific logical moments during development. The working directory holds the 
 files that correspond to a specific commit and any changes made since that commit was
 created. The staging area is used to hold a copy of any changes to the working directory
 that you want to include in the next commit.
+
+With a staging area I can select logically related changes for a commit even if I have
+made other unrelated changes in the working directory.
