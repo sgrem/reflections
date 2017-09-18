@@ -23,3 +23,11 @@ that you want to include in the next commit.
 
 With a staging area I can select logically related changes for a commit even if I have
 made other unrelated changes in the working directory.
+
+
+Step 13
+How can you use the staging area to make sure you have one commit per logical change?
+
+Only add the changes that are logically conected to the staging area before creating a
+commmit. Say you solved a couple of problems while working hot and heavy on the project.
+Add the changes for problem1 then commit and then add the changes for problem2 and commit.
