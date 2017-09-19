@@ -53,3 +53,14 @@ The diagram shows the commits on the master branch that are the parents of both 
 master and the coins branches. Then it shows the coins branch branching off from the
 master branch and then coming back together in the merge commit. From the merge commit
 we can traverse both branches back to the initial commit.
+
+
+Step 33 Reflect: Automatic vs manual merging
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros of automatic merging are that it's easy, and less prone to errors.
+Cons are that the merged code may not be logically correct, and it cannot make decisions
+based on the semantics of the code
+
+Manual merging is more difficult and error prone but the developer can insure that the
+semantics are correct.
