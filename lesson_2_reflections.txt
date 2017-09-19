@@ -36,3 +36,8 @@ Add the changes for problem1 then commit and then add the changes for problem2 a
 Step 16 Reflect: When to use branches
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
+When multiple developers are working on different parts of the same project. When you want
+to try out some changes without impacting the current stable and tested version. When you
+want multiple releases that each have unique features. Branches can keep untested code off
+of the main branch until they are tested and approved and then they can be merged back into
+the main branch.
