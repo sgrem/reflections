@@ -7,3 +7,11 @@ share our work on a remote repository. I also like the idea that by pushing my
 work remotely I create a backup with copies local and remote. Another benefit is
 to the github community which can see my project, borrow anything usefull, and 
 contribute if they so desire.
+
+
+Step 10 Reflect: Manual vs. automatic pull
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+I wouldn't want the branch I'm working on to change automatically without my
+knowledge. It would be like developing in quicksand without any kind of sure footing.
