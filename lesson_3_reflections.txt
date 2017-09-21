@@ -15,3 +15,20 @@ automatically stay up-to-date with your remote repository?
 
 I wouldn't want the branch I'm working on to change automatically without my
 knowledge. It would be like developing in quicksand without any kind of sure footing.
+
+
+Step 14 Reflect: Forks, Clones, and Branches
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+Use fork on github to copy a github repository from another user into your github
+directory. That way you can make changes without affecting the original repository.
+
+Use clone to copy a github repository to your local computer. This allows you to make
+changes that only you can see until you're ready to share the changes by pushing them
+out to github
+
+A branch is a labeled sequence of commits within a repository. They are used to keep
+track of changes you make to your repository. Changes on a branch can be pushed to
+a github repository for sharing. Any changes to a branch on the github repository that
+collaborators have shared can be pulled to your local repository.
