@@ -1,0 +1,9 @@
+Step 7 Reflect: When to Use a Remote Repository
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+If I was collaborating with other developers on a project I would want us to all
+share our work on a remote repository. I also like the idea that by pushing my
+work remotely I create a backup with copies local and remote. Another benefit is
+to the github community which can see my project, borrow anything usefull, and 
+contribute if they so desire.
