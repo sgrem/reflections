@@ -52,3 +52,13 @@ fetch or pull and merge. Then you will still be ahead of the remote and you
 should push.
 
 If behind, you can do a fetch/merge or pull to get your local branch up to date.
+
+
+Step 25 Reflect: Collaboration using Git and GitHub
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+If we tried a manual process without the benefit of a VCS then it would be a mess. We
+would need to manually version files by adding a timestamp and the programmers initials
+to the file name. We would have to designate someone to manage the "golden" project source
+code. That person would be responsible for merging in all changes.
