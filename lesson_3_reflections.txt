@@ -32,3 +32,23 @@ A branch is a labeled sequence of commits within a repository. They are used to 
 track of changes you make to your repository. Changes on a branch can be pushed to
 a github repository for sharing. Any changes to a branch on the github repository that
 collaborators have shared can be pulled to your local repository.
+
+
+Step 22 Reflect: Local copies of remote branches
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+The benefit is that by comparing the remote tracking branch with the local branch
+you can see if changes on the remote repository and changes on the local branch have
+been synchronized so that the local and remote branches have the same sequence of commits.
+
+The git-status command will let you know if the local branch is ahead, behind, up to date,
+or out of synch. 
+
+If ahead then you will need to push to get the remote branch up to date.
+
+If the remote branch is out of synch then the push will fail and you will have to
+fetch or pull and merge. Then you will still be ahead of the remote and you
+should push.
+
+If behind, you can do a fetch/merge or pull to get your local branch up to date.
