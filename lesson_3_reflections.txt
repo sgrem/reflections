@@ -62,3 +62,14 @@ If we tried a manual process without the benefit of a VCS then it would be a mes
 would need to manually version files by adding a timestamp and the programmers initials
 to the file name. We would have to designate someone to manage the "golden" project source
 code. That person would be responsible for merging in all changes.
+
+
+Step 31 Reflect: When to use a separate branch
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+If I'm collaborating on my project with other developers I'd want everyone to use
+separate branches with changes submitted to the remote repository using pull requests.
+If I'm working on a project alone then I would still use Github to share my code and
+act as a backup. I might still use a separate branch for development but would merge
+local and push to github if the new changes tested ok.
